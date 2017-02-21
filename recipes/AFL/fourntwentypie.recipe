@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "mashedpotato", "count" : 1 },
+    { "item" : "meatstew", "count" : 1 }
+  ],
+  "output" : { "item" : "fourntwentypie", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

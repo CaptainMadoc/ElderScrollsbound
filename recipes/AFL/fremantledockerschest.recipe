@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 4 },
+    { "item" : "string", "count" : 4 }
+  ],
+  "output" : { "item" : "fremantledockerschest", "count" : 1 },
+  "groups" : [ "mod", "craftingwheel", "clothes" ]
+}

@@ -1,0 +1,12 @@
+{
+	"name" : "Elder Scrollsbound",
+	"version" : "1",
+	"path" : ".",
+	"dependencies" : [],
+	"metadata" : {
+		"displayName" : "Elder Scrollsbound",
+		"author" : "Joshua Madoc",
+		"description" : "Nords are so serious about beards. So many beards. M'aiq thinks they wish they had glorious manes like Khajiit.",
+		"version" : "1"
+	}
+}
