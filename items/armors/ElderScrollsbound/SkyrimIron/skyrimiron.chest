@@ -4,7 +4,7 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
-  "category" : "chestwear",
+  "category" : "chestarmour",
   "description" : "A set of chainmail over a gambeson, a common design from Skyrim's Fourth Era.",
   "shortdescription" : "Fourth-Era Skyrim Iron Chainmail",
   "tooltipKind" : "armor",
