@@ -1,0 +1,24 @@
+{
+  "projectileName" : "bolt-windup-doublebolt-steel2",
+  "frames" : "bolt-windup-doublebolt-steel2.png",
+  "animationCycle" : 0.25,
+  "level" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 0.01,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "doublebolt-steel2-1",
+      "inheritDamageFactor" : 1.0
+    },
+	{
+      "action" : "projectile",
+      "type" : "doublebolt-steel2-next",
+      "inheritDamageFactor" : 1.0
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "dredbow"
+}
