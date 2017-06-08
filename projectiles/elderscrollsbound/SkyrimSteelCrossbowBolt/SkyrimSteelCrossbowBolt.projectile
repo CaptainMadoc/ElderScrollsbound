@@ -1,0 +1,17 @@
+{
+  "projectileName" : "SkyrimSteelCrossbowBolt",
+  "image" : "SkyrimSteelCrossbowBolt.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 1.00,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "dredbow"
+}

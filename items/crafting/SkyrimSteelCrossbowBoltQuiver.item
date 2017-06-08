@@ -1,0 +1,14 @@
+{
+  "itemName" : "SkyrimSteelCrossbowBoltQuiver",
+  "price" : 1,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "SkyrimSteelCrossbowBoltQuiver.png",
+  "description" : "A quiver of bolts from 4th-Era Skyrim.",
+  "shortdescription" : "4th-Era Skyrim Steel Bolts",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [
+    "bonematerial",
+    "throwingbones"
+  ]
+}

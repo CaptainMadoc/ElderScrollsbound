@@ -2,9 +2,9 @@
   "itemName" : "SkyrimSteelCrossbow",
   "rarity" : "Common",
   "category" : "throwableItem",
-  "inventoryIcon" : "SkyrimSteelCrossbowEmpty.png",
+  "inventoryIcon" : "SkyrimSteelCrossbowIcon.png",
   "image" : "SkyrimSteelCrossbow.png",
-  "shortdescription" : "Skyrim Steel Crossbow",
+  "shortdescription" : "4th-Era Skyrim Steel C'bow",
   "description" : "Why did it take over 200 years for Tamriel to remember that they had crossbows?",
 
   "ammoUsage" : 1,
@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 1.25,
 
-  "projectileType" : "javelin",
+  "projectileType" : "SkyrimSteelCrossbowBolt",
   "projectileConfig" : {
     "speed" : 50,
     "power" : 47,

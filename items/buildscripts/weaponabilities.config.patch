@@ -1,0 +1,8 @@
+    [
+      {
+        "op" : "add",
+        "path" : "/skyrimirondaggercombo",
+        "value" :
+		  "/items/active/weapons/melee/abilities/broadsword/skyrimirondaggercombo.weaponability"
+      }
+    ]
