@@ -25,12 +25,12 @@
   "extraAmmoList" : [],		//Used for ejecting ammo, set dynamically
   "reloadParam" : false,	//false for reloadammo secondary ejecting ammo, [reload_amount,reload_cost,cooldown] for reloadammo reloading the gun (eg, for reloading one bullet for 20 energy every 2 seconds it will look like [1,20,2])
 
-  "animation" : "/items/active/guns/tes5cbowdwarven/tes5cbowdwarven.animation",
+  "animation" : "/items/active/weapons/guns/tes5cbowdwarven/tes5cbowdwarven.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "tes5cbowdwarven.png",
     "barrel" : "",
-    "muzzleFlash" : "/items/active/guns/tes5cbowdwarven/tes5cbowdwarven-flash.png"
+    "muzzleFlash" : "/items/active/weapons/guns/tes5cbowdwarven/tes5cbowdwarven-flash.png"
   },
   "animationCustom" : {
 	"animatedParts":{
@@ -40,7 +40,7 @@
           "states" : {					//animations are handled by both gunammo.lua (ammo states) and gunfireammo.lua (firing state). If you want to change those, make a copy and work with that.
 			"firing" :{					//gun will transition to "firing" state each time you pull the trigger
 			  "frames" : 3,
-			  "cycle" : 0.07,
+			  "cycle" : 0.15,
 			  "mode" : "transition",
 			  "transition" : "empty"	//transition mode and animation is set up for the crossbow. may not work for everything
 			},
@@ -95,7 +95,7 @@
       }
 	},
     "sounds" : {
-      "fire" 		: [ "/items/active/guns/tes5cbowdwarven/tes5cbowdwarven.ogg" ],
+      "fire" 		: [ "/items/active/weapons/guns/tes5cbowdwarven/tes5cbowdwarven.ogg" ],
 	  "empty"		: [ "/sfx/gun/reload/machinepistol_reload_clip1.ogg" ],
       "switchAmmo" 	: [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
     }
@@ -103,14 +103,14 @@
 
 
   "baseOffset" : [1, 0.375],			//Offsets are 0.125 per pixel
-  "muzzleOffset" : [1.5, 0.25],		//Offsets are 0.125 per pixel
+  "muzzleOffset" : [0.75, 0],		//Offsets are 0.125 per pixel
   "handGrip" : "inside",
-  "scripts" : ["/items/active/weapons/ranged/tesgunammo.lua"],
+  "scripts" : ["/items/active/weapons/tesgunammo.lua"],
 
   "elementalType" : "physical",
   
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/tesgunfireammo.lua"],
+    "scripts" : ["/items/active/weapons/tesgunfireammo.lua"],
     "class" : "GunFire",
 
     "fireTime" : 0.45,

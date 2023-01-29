@@ -4,14 +4,15 @@
   "rarity" : "Common",
   "tooltipKind" : "ammoitem",
   "category" : "Rifle",
-  "inventoryIcon" : "/items/augments/ammo/tes/tes5ammodwarven/tes5ammodwarven-i.png",
+  "inventoryIcon" : "/items/active/augments/ammo/tes/tes5ammodwarven/tes5ammo1000dwarven.png",
   "description" : "",
-  "shortdescription" : "Dwarven Bolt",
+  "shortdescription" : "Bundle of 1000 Dwarven Bolts",
 
   "ammoType" : "tes5ammodwarven",									//type of ammo, has to be same as itemname since it's used for giving the ammo back in case of unloading
   "ammoTag"  : "tes5ammodwarven",												//ammo tag, has to match one of the tags in weapons "ammoTags" list
   "ammoName" : "Dwarven Bolt",										//used for the tooltip
-  "ammoIcon" : "/items/augments/ammo/tes/tes5ammodwarven/tes5ammodwarven-i.png",				//used for the tooltip
+  "ammoIcon" : "/items/active/augments/ammo/tes/tes5ammodwarven/tes5ammodwarven.png",				//used for the tooltip
+  "ammoProjectile" : "tes5cbowdwarvenproj",
   "ammoProjectileCount" : 1,										//overrides projectile count for the primary. Damage is divided evenly across the projectiles
   "ammoCount" : 1000,													//determines how much ammo this item restores. The excess will be returned in items specified in "ammoType"
   "ammoDamage" : 0,													//damage per shot added by this type of ammo. This damage is split between all projectiles if projectile count is not 1

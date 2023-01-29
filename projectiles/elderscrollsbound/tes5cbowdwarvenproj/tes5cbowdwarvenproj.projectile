@@ -10,7 +10,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+      "file" : "/projectiles/explosions/tes5cbowproj/tes5cbowproj.config"
     }
   ],
   "speed" : 100,
