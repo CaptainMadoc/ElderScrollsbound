@@ -1,0 +1,18 @@
+{
+  "projectileName" : "tes5cbowaltmeriproj",
+  "image" : "tes5cbowaltmeriproj.png",
+  "animationCycle" : 0.25,
+  "timeToLive" : 1.5,
+  "fullbright" : true,
+  "lightColor" : [180, 255, 255],
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/tes5cbowproj/tes5cbowproj.config"
+    }
+  ],
+  "speed" : 100,
+  "damagePoly" : [ [0, -0.5], [6, -0.5], [6, 0.5], [0, 0.5] ]
+}
